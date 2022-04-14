@@ -8,7 +8,7 @@ local notify = function(a,b)
 end
 
 local load = function(repo)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/JLCJeremy/chinese-takeout/main/Games/"..repo)..".lua")()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/JLCJeremy/chinese-takeout/main/Games/"..repo..".lua"))()
 end
 
 notify("Loading Chinese Takeout X","20")
